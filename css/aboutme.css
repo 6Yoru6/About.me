@@ -14,7 +14,8 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
         line-height: 2.5;
-        padding: 10px 50px;
+        padding: 30px 50px 20px;
+        margin-bottom: 0;
     }
     .headercolor {
         background-color: rgb(36, 35, 35);
@@ -50,11 +51,35 @@ body {
         padding: 0 30px 10px 20px;
     }
 
+/*Listes*/
+    ul, ol {
+        list-style-type: none;
+        margin-left: -30px;
+    }
+    li:before {
+        content: "- ";
+    }
+
+/*Tableau*/
+    table {
+        border-collapse: collapse;
+
+    }
+    td, th {
+        border: 1px solid #ddddddda;
+        text-align: center;
+        padding: 8px;
+        width: 80px;
+    }
+    tr {
+        height: 50px;
+    }
+
 
 
 .footer {
     padding: 40px 20px 20px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align:center;
     font-size:13px;
     color:#aaa;
