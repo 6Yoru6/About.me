@@ -1,101 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/aboutme.css">
-    <title>Page d'accueil</title>
+    <title>À propos de moi</title>
 </head>
 <body>
     <header class="headercolor">
         <div> <!--Header-->
-            <p class="header"><strong>
+            <strong class="header">
                 Mon idéal serait de devenir Développeur Web profesionnel et de pouvoir en vivre.
-            </p></strong>
+            </strong>
         </div>
-        <hr>
         <div> <!--Navigation-->
-            <h1 id="nav" class="nav">
+            <hr>
+            <h1 class="nav">
                 <a href="index.html">Page d'accueil</a>
                 <a href="about-me.html">À propos de moi</a>
                 <a href="my-dreams.html">Mes rêves d'apprenant</a>
                 <a href="my-passions.html">Mes passions</a>
-                <a href="cv-fr.pdf" target="_blank">Mon CV</a>
+                <a href="others/cv-fr.pdf" target="_blank">Mon CV</a>
             </h1>
             <hr>
         </div>
     </header>
 
-    <div> <!--Contenu-->
+    <div> <!--Content-->
         <h1 id="title">À propos de moi</h1>
-        <div id="p">
-            <h2>Mes compétences opérationnelles</h2>
-                <ul>
-                    <li>Connaissances spécifiques</li>
-                    <li>Résolution de problèmes</li>
-                    <li>Responsabilités et Autonomie</li>
-                    <li>Gestion des changements et Adaptation</li>
-                    <li>Analyse de la pratique <br>(Esprit critique de son propre travail)</li>
-                </ul>
-                <!--une liste de vos compétences opérationnelles-->
-            <h2>Mes compétences comportementales</h2>
-                <ul>
-                    <li>Capacité d'apdatation</li>
-                    <li>Autonomie</li>
-                    <li>Connaissance et respect des règles</li>
-                    <li>Capacité à actualiser ses connaissances</li>
-                    <li>Esprit créatif</li>
-                    <li>Empathie</li>
-                </ul>
-                <!--une liste de vos compétences comportementales-->
-            <h2>Mes connaissances</h2>
-            <table>
-                <tr>
-                    <th>Matière</th>
-                    <th>Savoir</th>
-                </tr>
-                <tr>
-                    <td>HTML5</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>CSS3</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>JS</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>PHP</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>PHP Object</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>Google Docs</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>Google Sheets</td>
-                    <td>X</td>
-                </tr>
-            </table>
+        <div class="tableright">
+            <div id="content"> <!--Skills-->
+                <h2>Mes compétences opérationnelles</h2>
+                    <ul id="hyphen">
+                        <li>Connaissances spécifiques</li>
+                        <li>Résolution de problèmes</li>
+                        <li>Responsabilités et Autonomie</li>
+                        <li>Gestion des changements et Adaptation</li>
+                        <li>Analyse de la pratique <br>(Esprit critique de son propre travail)</li>
+                    </ul>
+                <h2>Mes compétences comportementales</h2>
+                    <ul id="hyphen">
+                        <li>Capacité d'apdatation</li>
+                        <li>Autonomie</li>
+                        <li>Connaissance et respect des règles</li>
+                        <li>Capacité à actualiser ses connaissances</li>
+                        <li>Esprit créatif</li>
+                        <li>Empathie</li>
+                    </ul>
+            </div>
+            <div> <!--Table-->
+                <h2 style="margin-top: 0;">Mes connaissances</h2>
+                <table>
+                    <tr>
+                        <th>Matière</th>
+                        <th>Savoir</th>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>JS</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PHP Object</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Google Docs</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Google Sheets</td>
+                        <td>X</td>
+                    </tr>
+                </table>
+            </div>
+            <a href="images/skills.jpg"><img src="images/skills-mini.png" alt="Skills" id="imgskills"></a>
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer"> <!--Footer-->
         <footer>
             <p>CARLU Antoine © 2023</p>
         </footer>

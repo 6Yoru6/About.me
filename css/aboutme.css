@@ -1,9 +1,8 @@
 body {
     font-family: Helvetica;
-    background-color: rgb(24, 24, 24); 
+    background-color: rgb(34, 33, 33);
     color: rgba(255, 255, 255, 0.925);
     margin: 0px;
-    margin-top: -26px;
 }
 
 
@@ -18,49 +17,52 @@ body {
         margin-bottom: 0;
     }
     .headercolor {
-        background-color: rgb(36, 35, 35);
+        background-color: rgb(24, 24, 24); 
     }
 
 
 /*Navigation*/
-    #nav {
-        font-size: 130%;
-    }
-    #nav a {
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.925);
-    }
-    #nav a:hover {
-        text-decoration: underline; 
-        font-size: 105%;
-    }
     .nav {
+        font-size: 130%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        line-height: 2;
+        height: 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        overflow: auto;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.925);
+    }
+    .nav a:hover {
+        text-decoration: underline; 
+        font-size: 105%;
     }
 
-
-/*Contenu*/
+/*Content*/
     #title {
         font-size: 180%;
-        padding: 20px 30px 10px;
+        padding: 20px 60px 10px;
     }
-    #p {
-        padding: 0 30px 10px 20px;
+    #content {
+        padding: 0 80px 10px 50px;
+    }
+    .content-passions p {
+        margin-top: 8px;
     }
 
 /*Listes*/
-    ul, ol {
-        list-style-type: none;
-        margin-left: -30px;
-    }
     li {
         line-height: 1.5;
     }
-    li:before {
+    #hyphen li:before {
         content: "- ";
+    }
+    #hyphen {
+        list-style-type: none;
+        margin-left: -20px;
     }
 
 /*Tableau*/
@@ -78,6 +80,19 @@ body {
         height: 50px;
     }
 
+    .tableright {
+        display: flex;
+        align-items: center;
+    }
+
+/*Images*/
+    .imgspassions h2 {
+        margin-bottom: 5px;
+    }
+    #imgskills {
+        margin-top: -170px;
+        padding: 0 30px 0 150px;
+    }
 
 
 .footer {
