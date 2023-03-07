@@ -56,6 +56,9 @@ body {
         list-style-type: none;
         margin-left: -30px;
     }
+    li {
+        line-height: 1.5;
+    }
     li:before {
         content: "- ";
     }
@@ -63,7 +66,7 @@ body {
 /*Tableau*/
     table {
         border-collapse: collapse;
-
+        margin-left: 18px;
     }
     td, th {
         border: 1px solid #ddddddda;
