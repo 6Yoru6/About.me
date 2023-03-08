@@ -3,6 +3,7 @@ body {
     background-color: rgb(34, 33, 33);
     color: rgba(255, 255, 255, 0.925);
     margin: 0px;
+    /*font-size: 1vw;*/
 }
 
 
@@ -50,7 +51,7 @@ body {
         padding: 0 80px 10px 50px;
     }
     #content-aboutme {
-        padding: 0 10px 10px 50px;
+        padding: 55px 10px 10px 50px;
     }
     .content-passions p {
         margin-top: 8px;
@@ -86,15 +87,15 @@ body {
     /*Flexbox for align items vertically in "My passions" page*/
     .tableright {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
-    }
-    .tableright img {
-        align-items: none;
-        justify-content: center;
     }
     #tablepadding {
         padding: 0 10px 0 50px;
+    }
+    #imgskills {
+        padding: 30px 50px 30px 50px;
+        width: 80%;
     }
 
 
@@ -102,8 +103,10 @@ body {
     .imgspassions h2 {
         margin-bottom: 5px;
     }
-    #imgskills {
-        padding: 30px 50px 30px 50px;
+    figcaption {
+        font-size: 60%;
+        color: black;
+        margin-top: -14px;
     }
 
 
