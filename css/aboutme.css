@@ -49,6 +49,9 @@ body {
     #content {
         padding: 0 80px 10px 50px;
     }
+    #content-aboutme {
+        padding: 0 10px 10px 50px;
+    }
     .content-passions p {
         margin-top: 8px;
     }
@@ -57,10 +60,10 @@ body {
     li {
         line-height: 1.5;
     }
-    #hyphen li:before {
+    .hyphen li:before {
         content: "- ";
     }
-    #hyphen {
+    .hyphen {
         list-style-type: none;
         margin-left: -20px;
     }
@@ -80,18 +83,27 @@ body {
         height: 50px;
     }
 
+    /*Flexbox for align items vertically in "My passions" page*/
     .tableright {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
+    .tableright img {
+        align-items: none;
+        justify-content: center;
+    }
+    #tablepadding {
+        padding: 0 10px 0 50px;
+    }
+
 
 /*Images*/
     .imgspassions h2 {
         margin-bottom: 5px;
     }
     #imgskills {
-        margin-top: -170px;
-        padding: 0 30px 0 150px;
+        padding: 30px 50px 30px 50px;
     }
 
 
