@@ -15,21 +15,25 @@
             </strong>
         </div>
         <div> <!--Navigation-->
-            <hr>
-            <h1 class="nav">
-                <a href="index.html">Page d'accueil</a>
-                <a href="about-me.html">À propos de moi</a>
-                <a href="my-dreams.html">Mes rêves d'apprenant</a>
-                <a href="my-passions.html">Mes passions</a>
-                <a href="others/cv-fr.pdf" target="_blank">Mon CV</a>
-            </h1>
-            <hr>
+            <nav>
+                <hr>
+                <label for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <h1 class="nav menu">
+                    <a href="index.html">Page d'accueil</a>
+                    <a href="about-me.html">À propos de moi</a>
+                    <a href="my-dreams.html">Mes rêves d'apprenant</a>
+                    <a href="my-passions.html">Mes passions</a>
+                    <a href="others/cv-fr.pdf" target="_blank">Mon CV</a>
+                </h1>
+                <hr>
+            </nav>
         </div>
     </header>
 
     <div> <!--Content-->
         <h1 id="title">À propos de moi</h1>
-        <div class="tableright">
+        <div class="aboutmebox">
             <div id="content-aboutme"> <!--Skills-->
                 <h2>Mes compétences opérationnelles</h2>
                     <ul class="hyphen">
@@ -94,7 +98,7 @@
                     </tr>
                 </table>
             </div>
-            <div> <!--Image-->
+            <div id="order"> <!--Image-->
                 <a href="images/skills.jpg"><img src="images/skills-mini.png" alt="Skills" id="imgskills"></a>
             </div>
         </div>
