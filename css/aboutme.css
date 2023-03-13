@@ -72,7 +72,7 @@ body {
 /*Table (about-me.html)*/
     table {
         border-collapse: collapse;
-        margin-left: 18px;
+        margin: auto;
     }
     td, th {
         border: 1px solid #ddddddda;
