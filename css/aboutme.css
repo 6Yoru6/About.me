@@ -161,9 +161,32 @@ body {
     }
 
 /*Responsive*/
-    @media all and (min-width: 1800px)/*Large Screen*/ {
+    @media all and (min-width: 2400px)/*Large Screen*/ {
+        /*Adjust responsive for Header (TV)*/
         body {
             font-size: xx-large
+        }
+        .nav {
+            margin-top: 45px;
+            margin-bottom: 40px;
+        }
+        nav .menu {
+            height: 50px;
+        }/*XXX*/
+        /*Adjust texts and elements (for TV)*/
+        td, th {
+            padding: 10px;
+            width: fit-content;
+        }
+        table {
+            margin-left: 0;
+            margin: auto;
+        }
+        #imgskills {
+            width: 600px;
+        }
+        figure img {
+            width: 200px;
         }
     }
     @media all and (max-width: 900px)/*Tablet*/ {
@@ -187,7 +210,7 @@ body {
             padding: 0 50px 10px 40px;
         }
         #content-aboutme {
-            padding: 70px 10px 10px 40px;
+            padding: 0 10px 10px 40px;
         }
         ol, ul {
             padding-left: 30px;
@@ -221,6 +244,15 @@ body {
             #imgskills {
                 order: 1;
             } /*XXX*/
+        /*Positions relative and absolute to the flexbox for good positionnements*/
+            .aboutmebox {
+                position: relative;
+                height: 625px;
+            }
+            #content-aboutme {
+                position: absolute;
+                margin-top: 250px;
+            } /*XXX*/
     }
     @media all and (max-width: 660px)/*Tablet S*/ {
         #content-aboutme {
@@ -242,6 +274,15 @@ body {
             }
             #imgskills {
                 order: 1;
+            } /*XXX*/
+        /*Delete 3th categorie of the before @media*/
+            .aboutmebox {
+                position: relative;
+                height: 100%;
+            }
+            #content-aboutme {
+                position: relative;
+                margin-top: 0;
             } /*XXX*/
     }
     @media all and (max-width: 450px)/*Phone*/ {
