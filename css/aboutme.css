@@ -117,6 +117,10 @@ body {
         /*color: black;*/
         /*margin-top: -14px;*/
     }
+    #imgprofil {
+        width: 250px;
+        padding: 0 0 0 50px;
+    }
 
 
 .footer {
@@ -188,6 +192,10 @@ body {
         figure img {
             width: 200px;
         }
+        #imgprofil {
+            width: 400px;
+            padding: 0 0 0 50px;
+        }
     }
     @media all and (max-width: 900px)/*Tablet*/ {
         /*Adjust responsive for Header (tablet)*/
@@ -232,6 +240,11 @@ body {
         }
         figure img {
             width: 125px;
+        }
+        #imgprofil {
+            width: 200px;
+            padding: 0 0 0 40px;
+            margin-top: -5px;
         }
         /*XXX*/
         /*Order of elements of the flexbox (for tablet)*/
@@ -317,6 +330,11 @@ body {
         }
         figure img {
             width: 100px;
+        }
+        #imgprofil {
+            width: 150px;
+            padding: 0 0 0 30px;
+            margin-top: -10px;
         }
         /**XXX*/
         /*Adjust of texts and elements (for phone)*/
